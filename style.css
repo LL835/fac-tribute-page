@@ -28,6 +28,12 @@ section {
     padding: 1rem;
 }
 
+.section-title{
+    text-align: left;
+    color: #c7905e;
+    margin-top: 0;
+}
+
 .bio {
     text-align: justify;
     text-justify: auto;
@@ -49,7 +55,7 @@ section {
 }
 
 .album-and-title{
-    max-width: 280px;
+    width: 250px;
     margin-top: 1rem;
 }
 
