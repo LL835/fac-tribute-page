@@ -13,6 +13,7 @@
         <div class="divider"></div>
 
         <section id="profile">
+            <h2 class="section-title"> About the band </h2>
             <div class="bio"> 
                 <p>Florence + the Machine are an English indie rock band based in London. Known for their genre-bending sound and front woman Florence Welch's powerful vocals, the band has been met with both critical and popular acclaim. 
                     
@@ -30,7 +31,8 @@
             <img class ="photo" src="https://www.nme.com/wp-content/uploads/2022/03/DanceFeverTourAnnounce.jpg" alt="Florence Welch singing at Milano Rocks">
         </section>
 
-        <section id="discography">     
+        <section id="discography">
+            <h2 class="section-title"> Music </h2>     
             <div class="album dance-fever">
                 <div class="album-and-title">
                     <img class="album-art"src="https://media.pitchfork.com/photos/6279303bc7eb1718d8afd423/1:1/w_450%2Cc_limit/florence_and_the_machine_dance_fever.jpeg" alt="Dance Fever album cover">
@@ -110,7 +112,7 @@
 
         // Select the HTML elements to add the date to
         const profile = document.querySelector("#profile");
-        const bio = document.querySelector(".bio");
+        const title = document.querySelector(".section-title");
 
         // create a new element within the profile section
         const todayDate = document.createElement("div");
@@ -122,7 +124,7 @@
         todayDate.style.color = "#c7905e";
 
         // add today's date to the top of the profile section
-        const addDate = profile.insertBefore(todayDate, bio)
+        const addDate = profile.insertBefore(todayDate, title)
     </script>
 
     </body>
