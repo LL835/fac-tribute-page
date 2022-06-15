@@ -1,1 +1,12 @@
 # fac-tribute-page
+This is a tribute page which is part of the FAC application process. The requirements of the project were: 
+
+* The page has a title which informs the user what the site is about.
+* The page has a logical layout and clear structure.
+* There are images on the page, with alt-text where appropriate.
+* The page is visually interesting, for example with borders or colours.
+* A list is visible somewhere on the page.
+* Everything on the page fits on any screen size, without content overflowing or being cut off.
+* A user can click on a link that takes them to another website.
+* The page has a header element, and a footer element.
+* Somewhere on the page, the user can see today’s date. The date should always be correct.
